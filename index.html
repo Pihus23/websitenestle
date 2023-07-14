@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			
+			<a href="#" class = "navbar-brand">Nestlé</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				
+				<ul class = "nav navbar-nav navbar-right">
+					
+					<li class = "active"><a href="file:///C:/Users/pihus/Desktop/bootstrap/index.html">Home</a></li>
+					<li><a href="file:///C:/Users/pihus/Desktop/bootstrap/about.html">About</a></li>
+					<li><a href = "file:///C:/Users/pihus/Desktop/bootstrap/brands.html">Brands</a></li>
+					<li class = "dropdown">
+
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "https://twitter.com/i/flow/login?redirect_after_login=%2FNestle%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor">Twitter</a></li>
+							<li><a href = "https://www.facebook.com/nestle.USA/">Facebook</a></li>
+							<li><a href = "https://www.instagram.com/nestle/?hl=en">Instagram</a></li>
+						</ul>
+
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class = "container">
+
+		<div class = "jumbotron">
+			<center><h1>Nestlé</h1>
+			<p>The World's Largest Food and Beverage Company</p>
+			<img class = "featureImg" src = "nestle.png" width = "250px"></center>
+		</div>
+
+	</div>
+
+	<div class = "container">
+
+		<div class = "row">
+
+			<div class = "col-md-3">
+
+				<h3><a href = "#">Who Created It?</a></h3>
+				<p>Nestlé was founded by a pharmacist named Henri Nestlé.</p>
+				<img class = "featureImg" src = "henri.jpg" width = "150px">
+				<a href = "https://www.nestle.com/about/history/company-founder-henri-nestle" class = "btn btn-default">Read About It</a>
+			</div>
+
+			<div class = "col-md-3">
+
+				<h3><a href = "#">Where Was It Created?</a></h3>
+				<p>Nestlé was created and started in Vevey, Switzerland.</p>
+				<img class = "featureImg" src = "switzerland.jpg" width = "250px">
+				<a href = "https://www.forbes.com/sites/margiegoldsmith/2022/05/12/a-cloud-of-sweetness-vevey-switzerland/?sh=6a0e4efa3120" class = "btn btn-default">Read About It</a>
+			</div>
+
+			<div class = "col-md-3">
+
+				<h3><a href = "#">When Was It Created?</a></h3>
+				<p>Nestlé was created in 1867.</p>
+				<img class = "featureImg" src = "nestlee.jpg" width = "270px"></center>
+				<a href = "https://www.history.com/topics/american-civil-war/reconstruction" class = "btn btn-default">Read About It</a>
+
+			</div>
+
+			<div class = "col-md-3">
+
+				<h3><a href = "#">Why Was It Created?</a></h3>
+				<p>Henri decided to create Nestlé so it could be an alternative for mothers to feed their babies in another healthy way. </p>
+				<img class = "featureImg" src = "nestleee.jpg" width = "200px"></center>
+				<a href = "https://www.nestle.com/sites/default/files/2021-06/nestle-purpose-values-en.pdf" class = "btn btn-default">Read More</a>
+
+			</div>
+
+</div>
+</div>
+	<div class = "navbar nav-bar-default navbar-fixed-bottom">
+
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site Built By Pihu</p>
+			<a href = "https://www.nestle.com/" class = "navbar-button btn-danger btn pull-right">Official Nestlé Website</a>
+		</div>
+
+	</div>
+
+	<div class = "modal fade" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal">
+					<div class = "modal-header">
+						<h4>Contact Nestlé Site</h4>
+					</div>
+					<div class = "modal-body">
+
+						<div class = "form-group">
+
+							<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+							<div class = "col-lg-10">
+
+								<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+							</div>
+
+						</div>
+
+						<div class = "form-group">
+
+							<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+							<div class = "col-lg-10">
+
+								<input type = "email" class = "form-control" id = "contact-name" placeholder = "youexample@gmail.com">
+							</div>
+
+						</div>
+
+						<div class = "form-group">
+
+							<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+							<div class = "col-lg-10">
+
+								<textarea class = "form-control" rows = "8"></textarea>
+							</div>
+
+						</div>
+						
+						
+
+					
+					</div>
+					<div class = "modal-footer">
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<button class = "btn btn-submit" type = "submit"></button> 
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
